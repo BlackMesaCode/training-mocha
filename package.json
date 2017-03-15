@@ -1,0 +1,29 @@
+{
+  "name": "training-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel --watch src --out-dir dist",
+    "test": "mocha --require babel-register \"**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackMesaCode/training-mocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackMesaCode/training-mocha/issues"
+  },
+  "homepage": "https://github.com/BlackMesaCode/training-mocha#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "systemjs": "^0.20.9"
+  }
+}
